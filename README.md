@@ -6,7 +6,7 @@
 Подготовка и запуск проекта:
 Клонировать репозиторий:
 
-git clone https://github.com/Patron322/yamdb_final
+git clоne https://github.com/Patron322/yamdb_final
 
 Запустить docker-compose:
 
