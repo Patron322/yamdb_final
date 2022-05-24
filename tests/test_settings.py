@@ -1,6 +1,7 @@
+"""
 from api_yamdb import settings
 
-"""
+
 class TestSettings:
 
     def test_settings(self):
