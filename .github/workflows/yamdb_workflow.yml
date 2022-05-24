@@ -58,7 +58,6 @@ jobs:
           passphrase: ${{ secrets.PASSPHRASE }}
           script: |
             docker compose stop
-            docker rm -f $(docker ps -aq)
             docker compose rm web
             touch .env
             echo DB_ENGINE=${{ secrets.DB_ENGINE }} >> .env
