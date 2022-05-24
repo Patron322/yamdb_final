@@ -18,7 +18,7 @@ STATIC_ROOT = 'static'
 
 MEDIA_ROOT = 'media'
 
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'statica')]
+# STATICFILES_DIRS = [os.path.join(BASE_DIR, 'statica')]
 
 MEDIA_URL = '/media/'
 
