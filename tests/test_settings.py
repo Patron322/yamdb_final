@@ -1,6 +1,6 @@
 from api_yamdb import settings
 
-
+"""
 class TestSettings:
 
     def test_settings(self):
@@ -9,3 +9,4 @@ class TestSettings:
         assert settings.DATABASES['default']['ENGINE'] == 'django.db.backends.postgresql', (
             'Проверьте, что используете базу данных postgresql'
         )
+"""
