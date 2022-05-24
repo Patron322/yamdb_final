@@ -15,13 +15,14 @@ ALLOWED_HOSTS = ['51.250.109.255', 'localhost', '127.0.0.1', 'web']
 STATIC_URL = '/static/'
 
 STATIC_ROOT = 'static'
+
 MEDIA_ROOT = 'media'
 
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 MEDIA_URL = '/media/'
 
-#MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+# MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
 # Application definition
