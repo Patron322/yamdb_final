@@ -14,14 +14,11 @@ ALLOWED_HOSTS = ['51.250.109.255', 'localhost', '127.0.0.1', 'web']
 
 STATIC_URL = '/static/'
 
-# STATICFILES_DIRS = (os.path.join(BASE_DIR, "static/"),)
-# STATIC_ROOT = 'statica'
+#STATICFILES_DIRS = (os.path.join(BASE_DIR, 'api_yamdb/static/'),)
 
-STATIC_ROOT = BASE_DIR + "static/"
+STATIC_ROOT = 'api_yamdb/static/'
 
-STATICFILES_DIRS = BASE_DIR + 'staticfiles/'
-
-MEDIA_ROOT = BASE_DIR + 'media'
+MEDIA_ROOT = 'media/'
 
 # STATICFILES_DIRS = [os.path.join(BASE_DIR, 'statica')]
 
