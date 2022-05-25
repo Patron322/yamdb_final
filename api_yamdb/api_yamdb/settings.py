@@ -14,7 +14,7 @@ ALLOWED_HOSTS = ['51.250.109.255', 'localhost', '127.0.0.1', 'web']
 
 STATIC_URL = '/static/'
 
-# STATICFILES_DIRS = (os.path.join(BASE_DIR, 'api_yamdb/static/'),)
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'assets/'),)
 
 STATIC_ROOT = 'api_yamdb/static/'
 
