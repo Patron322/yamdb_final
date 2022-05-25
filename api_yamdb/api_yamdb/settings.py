@@ -17,11 +17,11 @@ STATIC_URL = '/static/'
 # STATICFILES_DIRS = (os.path.join(BASE_DIR, "static/"),)
 # STATIC_ROOT = 'statica'
 
-STATIC_ROOT = os.path.join(BASE_DIR, "api_yamdb/static/")
+STATIC_ROOT = BASE_DIR + "static/"
 
-STATICFILES_DIRS = os.path.join(BASE_DIR, 'api_yamdb/static/')
+STATICFILES_DIRS = BASE_DIR + 'staticfiles/'
 
-MEDIA_ROOT = 'media'
+MEDIA_ROOT = BASE_DIR + 'media'
 
 # STATICFILES_DIRS = [os.path.join(BASE_DIR, 'statica')]
 
