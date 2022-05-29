@@ -1,9 +1,14 @@
 ![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
 
+## Проект yamdb_final
+
+## Описание проекта:
+
 Дaнный проект разворачивает образ приложения api_yamdb (проект по сбору отзывов о музыкальных произведениях) на своём сервере. Принцип подключения следующий:
-222
-Подготовка и зaпyск проекта:DDS2222s
-Клонировать репозиторий:22
+
+# Подготовка и запуск проекта:
+
+Клонировать репозиторий:
 
 git clоne https://github.com/Patron322/yamdb_final
 
@@ -32,3 +37,7 @@ POSTGRES_PASSWORD= # установите свой пароль
 DB_HOST=db
 
 DB_PORT=5432
+
+# Ссылка на проект:
+
+http://51.250.109.255/redoc/
